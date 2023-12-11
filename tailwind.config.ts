@@ -16,7 +16,7 @@ const config: Config = {
       border: {
         'grey-15': '#262626'
       },
-      backgroundColorDark: {
+      bgColor: {
         'dark-08': '#141414',
         'dark-10': '#1A1A1A',
       },
