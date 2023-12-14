@@ -17,9 +17,10 @@ const config: Config = {
         'grey-15': '#262626'
       },
       padding: {
-        'real-px-20': '20px',
-        'real-px-16': '16px',
-        'real-px-12': '12px',
+        'space-30': '30px',
+        'space-20': '20px',
+        'space-16': '16px',
+        'space-12': '12px',
       },
       bgColor: {
         'dark-08': '#141414',
