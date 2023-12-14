@@ -16,6 +16,11 @@ const config: Config = {
       border: {
         'grey-15': '#262626'
       },
+      padding: {
+        'real-px-20': '20px',
+        'real-px-16': '16px',
+        'real-px-12': '12px',
+      },
       bgColor: {
         'dark-08': '#141414',
         'dark-10': '#1A1A1A',
