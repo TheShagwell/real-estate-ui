@@ -2,7 +2,7 @@ import React from 'react'
 
 const button = () => {
   return (
-    <div>button</div>
+    <div className='px-6 py-4 flex'>button</div>
   )
 }
 
