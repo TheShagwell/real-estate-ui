@@ -2,7 +2,7 @@ import React from 'react'
 
 const footer = () => {
   return (
-    <div>footer</div>
+    <div className='max-container py-12'>footer</div>
   )
 }
 

@@ -9,12 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'purple-60': '#703BF7',
-        'absolute-white':  '#fff',
-        'grey-60':  '#999',
+        'system-purple-60': '#703BF7',
+        'system-absolute-white':  '#fff',
+        'system-grey-60':  '#999',
       },
       border: {
         'grey-15': '#262626'
+      },
+      radius: {
+        'radius-4': '4',
+        'radius-8': '8',
+        'radius-12': '12',
+        'radius-16': '16',
+        'radius-24': '24',
       },
       padding: {
         'space-30': '30px',
