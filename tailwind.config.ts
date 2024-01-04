@@ -23,6 +23,13 @@ const config: Config = {
         'radius-16': '16',
         'radius-24': '24',
       },
+      margin: {
+        'margin-16': '16',
+        'margin-20': '20',
+        'margin-24': '24',
+        'margin-32': '32',
+        'margin-48': '48',
+      },
       padding: {
         'space-30': '30px',
         'space-20': '20px',
