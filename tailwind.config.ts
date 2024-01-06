@@ -36,7 +36,7 @@ const config: Config = {
         'space-16': '16px',
         'space-12': '12px',
       },
-      bgColor: {
+      backgroundColor: {
         'dark-08': '#141414',
         'dark-10': '#1A1A1A',
       },
