@@ -2,7 +2,7 @@ import React from 'react'
 
 const section = () => {
   return (
-    <div className='max-container m-margin-top-48'>
+    <div className='max-container mt-margin-48'>
         section is here!
     </div>
   )

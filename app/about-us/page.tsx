@@ -3,7 +3,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='max-container px-5 py-12'>
+    <div className='max-container px-5 py-12  mt-margin-48'>
         page
     </div>
   )
