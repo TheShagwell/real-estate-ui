@@ -12,8 +12,8 @@ type ButtonProps = {
 const button = ({type, title} : ButtonProps) => {
   return (
     <button 
-      className='px-6 py-4 flex justify-center text-system-purple-60'>
-        buttons
+      className={`px-6 py-4 flex justify-center text-system-purple-60`} type={type}>
+        <span className='cursor-pointer'>{title}</span>
     </button>
   )
 }
