@@ -11,9 +11,10 @@ type ButtonProps = {
 
 const button = ({type, title} : ButtonProps) => {
   return (
-    <div className='px-6 py-4 flex justify-center text-system-purple-60'>
+    <button 
+      className='px-6 py-4 flex justify-center text-system-purple-60'>
         buttons
-    </div>
+    </button>
   )
 }
 
