@@ -24,6 +24,7 @@ const config: Config = {
         'radius-24': '24',
       },
       margin: {
+        'margin-150': '150',
         'margin-16': '16',
         'margin-20': '20',
         'margin-24': '24',
@@ -31,6 +32,7 @@ const config: Config = {
         'margin-48': '48',
       },
       padding: {
+        'padding-80': '80px',
         'padding-30': '30px',
         'padding-20': '20px',
         'padding-16': '16px',
