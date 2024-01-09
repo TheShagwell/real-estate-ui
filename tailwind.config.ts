@@ -31,20 +31,16 @@ const config: Config = {
         'margin-48': '48',
       },
       padding: {
-        'space-30': '30px',
-        'space-20': '20px',
-        'space-16': '16px',
-        'space-12': '12px',
+        'padding-30': '30px',
+        'padding-20': '20px',
+        'padding-16': '16px',
+        'padding-12': '12px',
       },
       backgroundColor: {
         'dark-08': '#141414',
         'dark-10': '#1A1A1A',
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      }
+      
     },
   },
   plugins: [],
