@@ -6,9 +6,10 @@
 
 :root {
   --body-background-color: #141414;
+  --font-family: 'Urbanist', sans-serif;
 }
 
 body {
   background: var(--body-background-color);
-  font-family: 'Urbanist', sans-serif;
+  font-family: var(--font-family);
 }
