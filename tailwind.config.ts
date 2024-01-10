@@ -11,10 +11,11 @@ const config: Config = {
       colors: {
         'system-purple-60': '#703BF7',
         'system-absolute-white':  '#fff',
+        'system-grey-15': '#262626',
         'system-grey-60':  '#999',
       },
       border: {
-        'grey-15': '#262626'
+        'grey-20': '#242424',
       },
       radius: {
         'radius-4': '4px',
