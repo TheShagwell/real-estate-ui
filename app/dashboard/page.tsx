@@ -2,7 +2,11 @@ import React from 'react'
 
 const dashboard = () => {
   return (
-    <div>dashboard</div>
+    <>
+      <div className='max-container mb-20 py-5 px-20 mt-margin-48'>
+        dashboard
+      </div>
+    </>
   )
 }
 
