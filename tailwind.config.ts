@@ -11,9 +11,9 @@ const config: Config = {
       colors: {
         'system-purple-60': '#703BF7',
         'system-absolute-white':  '#fff',
+        'system-grey-10':  '#1A1A1A',
         'system-grey-15': '#262626',
         'system-grey-60':  '#999999',
-        'system-grey-10':  '#1A1A1A',
       },
       border: {
         'grey-20': '#242424',
