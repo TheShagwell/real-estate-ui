@@ -13,6 +13,7 @@ const config: Config = {
         'system-absolute-white':  '#fff',
         'system-grey-15': '#262626',
         'system-grey-60':  '#999999',
+        'system-grey-10':  '#1A1A1A',
       },
       border: {
         'grey-20': '#242424',
