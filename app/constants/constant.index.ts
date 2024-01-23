@@ -16,3 +16,16 @@ export const Inview = [
         testament: 'Years of Experience',
     },
 ]
+
+export const Package = [
+    {
+        id: 'package-1',
+        icon: '',
+        text: 'Find your dream home'
+    },
+    {
+        id: 'package-2',
+        icon: '',
+        text: 'Unlock property value'
+    }
+]
