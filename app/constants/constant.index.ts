@@ -31,7 +31,7 @@ export const Package = [
     {
         id: 'package-3',
         icon: '',
-        text: 'Unlock property value'
+        text: 'Effortless Property Management'
     },
     {
         id: 'package-4',
