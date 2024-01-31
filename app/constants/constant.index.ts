@@ -39,3 +39,12 @@ export const Package = [
         text: 'Unlock property value'
     }
 ]
+
+export const FAQ = [
+    {
+        id: 'one',
+        title: 'How do I search for properties on Estatein?',
+        comment: 'Learn how to use our user-friendly search tools to find properties that match your criteria.',
+        btn: '',
+    },
+]
