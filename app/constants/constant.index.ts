@@ -42,7 +42,7 @@ export const Package = [
 
 export const FAQ = [
     {
-        id: 'one',
+        id: '1',
         title: 'How do I search for properties on Estatein?',
         comment: 'Learn how to use our user-friendly search tools to find properties that match your criteria.',
         btn: '',
