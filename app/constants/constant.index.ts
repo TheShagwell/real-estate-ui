@@ -44,7 +44,13 @@ export const FAQ = [
     {
         id: '1',
         title: 'How do I search for properties on Estatein?',
-        comment: 'Learn how to use our user-friendly search tools to find properties that match your criteria.',
+        question: 'Learn how to use our user-friendly search tools to find properties that match your criteria.',
+        btn: '',
+    },
+    {
+        id: '2',
+        title: 'What documents do I need to sell my property through Estatein?',
+        question: 'Find out about the necessary documentation for listing your property with us.',
         btn: '',
     },
 ]
