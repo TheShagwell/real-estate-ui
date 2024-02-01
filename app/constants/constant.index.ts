@@ -50,7 +50,7 @@ export const FAQ = [
     {
         id: '2',
         title: 'What documents do I need to sell my property through Estatein?',
-        question: 'Find out about the necessary documentation for listing your property with us.',
+        question: 'Find out about the necessary documentation for listing your property with us..',
         btn: '',
     },
 ]
