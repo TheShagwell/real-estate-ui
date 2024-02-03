@@ -1,4 +1,12 @@
 // Index page 
+export const Rental = [
+    {
+        id: 'rent-01',
+        title: 'Seaside Serenity Villa',
+        text: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...',
+    },
+]
+
 export const Inview = [
     {
         id: 'item-1',
