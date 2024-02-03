@@ -5,6 +5,11 @@ export const Rental = [
         title: 'Seaside Serenity Villa',
         text: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...',
     },
+    {
+        id: 'rent-02',
+        title: 'Seaside Serenity Villa',
+        text: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...',
+    },
 ]
 
 export const Inview = [
