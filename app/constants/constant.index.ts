@@ -53,4 +53,10 @@ export const FAQ = [
         question: 'Find out about the necessary documentation for listing your property with us..',
         btn: '',
     },
+    {
+        id: '3',
+        title: 'How can I contact an Estatein agent?',
+        question: 'Discover the different ways you can get in touch with our experienced agents.',
+        btn: '',
+    },
 ]
