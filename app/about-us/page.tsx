@@ -1,12 +1,12 @@
 // The button styles will be added here
 import React from 'react'
 
-const page = () => {
+const About = () => {
   return (
     <div className='max-container px-5 py-12 mt-margin-48'>
-        page
+        About
     </div>
   )
 }
 
-export default page
+export default About
