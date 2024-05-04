@@ -1,13 +1,13 @@
 import React from 'react'
 
-const dashboard = () => {
+const Dashboard = () => {
   return (
     <>
       <div className='max-container mb-20 py-5 px-20 mt-margin-48'>
-        dashboard
+        Dashboard
       </div>
     </>
   )
 }
 
-export default dashboard
+export default Dashboard
