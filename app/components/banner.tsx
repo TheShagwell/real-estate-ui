@@ -24,7 +24,7 @@ export default function Banner({}: Props) {
             </Link>
           </div>
           <div
-            className={`flex items-center bg-[#262626] justify-center absolute right-8 rounded-full w-[1.625rem] h-[1.625rem]`}
+            className={`flex items-center bg-[#262626] justify-center absolute right-8 rounded-full w-[1.625rem] h-[1.625rem] cursor-pointer`}
             onClick={closeToggleIcon}
           >
             <X color="#ffffff" size={18}/>

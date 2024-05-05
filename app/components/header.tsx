@@ -19,7 +19,7 @@ export default function Header({}: Props) {
             <Link
               href={link.link}
               key={link.id}
-              className={`text-[.875rem] bg-[#141414] border border-solid border-[#262626] rounded-md py-3 px-5 text-white cursor-pointer transition-all hover:font-medium`}
+              className={`${index == 0 ? 'bg-[#141414] border border-solid border-[#262626] rounded-[.5rem]   cursor-pointer transition-all hover:font-medium' : ''} text-white py-3 px-5 text-[.875rem]`}
             >
               {link.title}
             </Link>
