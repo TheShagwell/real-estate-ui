@@ -23,7 +23,6 @@ export default function Banner({}: Props) {
               Learn More
             </Link>
           </div>
-          {}
           <div
             className={`flex items-center bg-[#262626] justify-center absolute right-8 rounded-full w-8 h-8`}
             onClick={closeToggleIcon}
