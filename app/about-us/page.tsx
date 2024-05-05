@@ -1,5 +1,7 @@
 // The button styles will be added here
 import React from 'react'
+import { buttonVariants } from "@/components/ui/button"
+
 
 const About = () => {
   return (
