@@ -1,23 +1,37 @@
-import { DoorClosed } from "lucide-react";
+"use client";
+
+import { DoorClosed, X } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 type Props = {};
 
 export default function Banner({}: Props) {
+  const [closed, setclosed] = useState(true);
+  const closeToggleIcon = () => {
+    setclosed(false);
+  };
   return (
     <>
-      <div className="relative">
-        <div className="flex justify-center items-center gap-[.625rem]">
-          <span>✨Discover Your Dream Property with Estatein</span>
-          <Link href="/" className="underline">
-            Learn More
-          </Link>
+      {closed && (
+        <div className="relative flex bg-[#1A1A1A] justify-center px-[10rem] py-[18px]">
+          <div className="flex justify-center items-center gap-[.625rem]">
+            <span className="text-white">
+              ✨Discover Your Dream Property with Estatein
+            </span>
+            <Link href="/" className="text-white underline hover:no-underline">
+              Learn More
+            </Link>
+          </div>
+          {}
+          <div
+            className={`flex items-center bg-[#262626] justify-center absolute right-8  rounded-full w-8 h-8`}
+            onClick={closeToggleIcon}
+          >
+            <X color="#ffffff" />
+          </div>
         </div>
-        <div className="flex items-center justify-center absolute top-0 right-8 border border-solid border-red-50 rounded-full w-8 h-8">
-            <DoorClosed/>
-        </div>
-      </div>
+      )}
     </>
   );
 }
