@@ -14,7 +14,7 @@ export default function Banner({}: Props) {
   return (
     <>
       {closed && (
-        <div className="relative flex bg-[#1A1A1A] border border-[#262626] border-solid justify-center px-[10rem] py-[18px]">
+        <div className="bg-[url('/AbstractDesign.svg')] relative flex bg-[#1A1A1A] border-b border-[#262626] border-solid justify-center px-[10rem] py-[18px]">
           <div className="flex justify-center items-center gap-[.625rem]">
             <span className="text-white">
               ✨Discover Your Dream Property with Estatein

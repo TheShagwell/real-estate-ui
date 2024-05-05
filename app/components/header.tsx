@@ -1,11 +1,15 @@
 import React from 'react'
 
-const header = () => {
+
+type Props = {}
+
+export default function Header({}: Props) {
   return (
-    <div className='max-container mb-20 py-5 px-20 mt-margin-48'>
-      header is here
-    </div>
+    <>
+      <div className="px-[10rem] py-5 bg-[#1A1A1A] border-b border-[#262626] border-solid justify-between items-center">
+        
+        
+      </div>
+    </>
   )
 }
-
-export default header
