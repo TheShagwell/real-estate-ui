@@ -1,4 +1,26 @@
 // Index page 
+export const NavItems = [
+    {
+        id: 'nav-01',
+        title: 'Home',
+        link: '/',
+    },
+    {
+        id: 'nav-02',
+        title: 'About Us',
+        link: '/about-us',
+    },
+    {
+        id: 'nav-03',
+        title: 'Properties',
+        link: '/properties',
+    },
+    {
+        id: 'nav-04',
+        title: 'Services',
+        link: '/services',
+    }
+] 
 export const Rental = [
     {
         id: 'rent-01',
