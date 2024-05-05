@@ -14,7 +14,7 @@ export default function Banner({}: Props) {
   return (
     <>
       {closed && (
-        <div className="relative flex bg-[#1A1A1A] justify-center px-[10rem] py-[18px]">
+        <div className="relative flex bg-[#1A1A1A] border border-[#262626] border-solid justify-center px-[10rem] py-[18px]">
           <div className="flex justify-center items-center gap-[.625rem]">
             <span className="text-white">
               ✨Discover Your Dream Property with Estatein
@@ -25,7 +25,7 @@ export default function Banner({}: Props) {
           </div>
           {}
           <div
-            className={`flex items-center bg-[#262626] justify-center absolute right-8  rounded-full w-8 h-8`}
+            className={`flex items-center bg-[#262626] justify-center absolute right-8 rounded-full w-8 h-8`}
             onClick={closeToggleIcon}
           >
             <X color="#ffffff" />
