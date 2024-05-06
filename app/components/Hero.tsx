@@ -10,11 +10,11 @@ export default function Hero({}: Props) {
             <div className="flex flex-col w-[43.125rem] h-full pt-[6.125rem] ml-20">
                 <div className="flex flex-col w-full text-white">
                     <h2 className='text-[2.875rem] font-semibold leading-[120%] mb-5'>Discover Your Dream Property with Estatein</h2>
-                    <p>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
+                    <p className='text-[#999]'>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
                 </div>
                 <div className="flex items-center gap-4 mt-[3.125rem]">
-                    <Button size='esbutton' className='border border-solid !bg-none border-[#262626]'>Learn More</Button>
-                    <Button size='esbutton' variant='purple'>Browse Properties</Button>
+                    <Button size='esbutton' variant='estateinbgOutline'>Learn More</Button>
+                    <Button size='esbutton' variant='estateinbg'>Browse Properties</Button>
                 </div>
             </div>
             <div className="h-full w-[43.125rem]">
