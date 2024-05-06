@@ -2,8 +2,8 @@
 import React from 'react'
 import { Button, buttonVariants } from "@/components/ui/button"
 import Link from 'next/link'
-import Banner from '../components/Banner'
-import Header from '../components/Header'
+import Banner from '../components/banner'
+import Header from '../components/header'
 import Hero from '../components/Hero'
 
 
