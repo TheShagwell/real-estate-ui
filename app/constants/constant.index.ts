@@ -34,7 +34,13 @@ export const Rental = [
     },
 ]
 
-export const Inview = [
+interface ThreeBoxed {
+    id: string
+    header: string
+    testament: string
+}
+
+export const Inview:ThreeBoxed[] = [
     {
         id: 'item-1',
         header: '200+',
