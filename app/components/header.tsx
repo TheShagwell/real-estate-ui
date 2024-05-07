@@ -3,7 +3,6 @@ import logo from "/public/Logo.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { NavItems } from "../constants/constant.index";
-import { Button } from "@/components/ui/button";
 
 type Props = {};
 
