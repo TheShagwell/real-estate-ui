@@ -44,7 +44,7 @@ export const Inview:ThreeBoxed[] = [
     {
         id: 'item-1',
         header: '200+',
-        testament: 'Customers',
+        testament: 'Happy Customers',
     },
     {
         id: 'item-2',
