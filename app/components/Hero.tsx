@@ -39,7 +39,7 @@ export default function Hero() {
                    ))}
                 </div>
             </div>
-            <div className="h-[38.875rem] bg-[url('/AbstractDesign.svg')] bg-cover  relative bg-[#1A1A1A]">
+            <div className="h-[38.875rem] bg-[url('/AbstractDesign.svg')] relative bg-[#1A1A1A]">
                <Image src={HeropageImage} alt='Hero Image' style={{  
                 width: '100%',
                 height: '100%',
