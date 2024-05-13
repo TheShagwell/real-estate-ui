@@ -1,3 +1,5 @@
+// import { EstateHome } from "/public/_Icon-home-estate.svg"
+
 // Index page 
 export const NavItems = [
     {
@@ -61,22 +63,22 @@ export const Inview:ThreeBoxed[] = [
 export const Package = [
     {
         id: 'package-1',
-        icon: '',
+        icon: "/public/_Icon-home-estate.svg",
         text: 'Find your dream home'
     },
     {
         id: 'package-2',
-        icon: '',
+        icon: "/public/_Icon-money-value.svg",
         text: 'Unlock property value'
     },
     {
         id: 'package-3',
-        icon: '',
+        icon: "/public/_Icon-property.svg",
         text: 'Effortless Property Management'
     },
     {
         id: 'package-4',
-        icon: '',
+        icon: "/public/_icon-sunlight.svg",
         text: 'Unlock property value'
     }
 ]
