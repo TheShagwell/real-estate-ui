@@ -60,25 +60,31 @@ export const Inview:ThreeBoxed[] = [
     },
 ]
 
-export const Package = [
+interface FourBoxed {
+    id: string
+    icon: string
+    text: string
+}
+
+export const Package:FourBoxed[] = [
     {
         id: 'package-1',
-        icon: "/public/_Icon-home-estate.svg",
+        icon: "/_Icon-home-estate.svg",
         text: 'Find your dream home'
     },
     {
         id: 'package-2',
-        icon: "/public/_Icon-money-value.svg",
+        icon: "/_Icon-money-value.svg",
         text: 'Unlock property value'
     },
     {
         id: 'package-3',
-        icon: "/public/_Icon-property.svg",
+        icon: "/_Icon-property.svg",
         text: 'Effortless Property Management'
     },
     {
         id: 'package-4',
-        icon: "/public/_icon-sunlight.svg",
+        icon: "/_icon-sunlight.svg",
         text: 'Unlock property value'
     }
 ]

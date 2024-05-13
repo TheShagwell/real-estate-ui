@@ -23,7 +23,7 @@ const HeroBoxed: React.FC<BoxProps> = ({header, testament}) => {
 export default function Hero() {
   return (
     <>
-        <div className="flex gap-[3.75rem] mb-[6.25rem]">
+        <div className="flex gap-[3.75rem]">
             <div className="flex flex-col h-full pt-[6.125rem] ml-20">
                 <div className="flex flex-col w-[38.75rem] text-white">
                     <h2 className='text-[2.875rem] font-semibold leading-[120%] mb-5'>Discover Your Dream Property with Estatein</h2>
