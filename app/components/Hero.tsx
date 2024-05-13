@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="flex gap-[3.75rem]">
             <div className="flex flex-col h-full pt-[6.125rem] ml-20">
                 <div className="flex flex-col w-[38.75rem] text-white">
-                    <h2 className='text-[2.875rem] font-semibold leading-[120%] mb-5'>Discover Your Dream Property with Estatein</h2>
+                    <h2 className='text-[2.875rem] max-w-[38.125rem] font-semibold leading-[120%] mb-5'>Discover Your Dream Property with Estatein</h2>
                     <p className='text-[#999] font-medium'>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
                 </div>
                 <div className="flex items-center gap-4 mt-[3.125rem]">
