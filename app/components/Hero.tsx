@@ -15,7 +15,7 @@ const HeroBoxed: React.FC<BoxProps> = ({header, testament}) => {
     return (
         <div className="bg-[#1A1A1A] border border-solid border-[#262626] rounded-[.625rem] py-[.875rem] px-5">
           <h3 className="text-[1.875rem] font-bold mb-2 text-[#fff]">{header}</h3>
-          <p className='text-[#999999]'>{testament}</p>
+          <p className='text-[#999999] font-medium'>{testament}</p>
         </div>
       );
 }
@@ -30,8 +30,8 @@ export default function Hero() {
                     <p className='text-[#999] font-medium'>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
                 </div>
                 <div className="flex items-center gap-4 mt-[3.125rem]">
-                    <Button size='esbutton' variant='estateinbgOutline' className='font-medium'>Learn More</Button>
-                    <Button size='esbutton' variant='estateinbg' className='font-medium'>Browse Properties</Button>
+                    <Button size='esbutton' variant='estateinbgOutline'>Learn More</Button>
+                    <Button size='esbutton' variant='estateinbg'>Browse Properties</Button>
                 </div>
                 <div className="flex gap-4 lg:flex-row sm:flex-col mt-[3.125rem]">
                    {Inview.map((item) => (
