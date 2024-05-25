@@ -2,9 +2,9 @@ import React from 'react'
 import { Package } from '../constants/constant.index'
 
 interface FourBoxed {
-  id: string
-  icon: string
-  text: string
+  id: string;
+  icon: string;
+  text: string;
 }
 
 // type Props = {}
@@ -26,7 +26,7 @@ const Category = ({id, icon, text} : FourBoxed) => {
     <>
       <div className="bg-[#141414] border border-solid border-[#262626] py-[.625rem] px-[.625rem]  shadow-inset shadow-[#000000]">
         <div className="grid grid-cols-4 gap-[.625rem]">
-          {Package.map((item, index) => (
+          {Package.map((item) => (
             <Category
               id={item.id}
               icon={item.icon}
