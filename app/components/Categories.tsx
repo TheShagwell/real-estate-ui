@@ -7,8 +7,6 @@ interface FourBoxed {
   text: string
 }
 
-// type Props = {}
-
 const Category = ({id, icon, text} : FourBoxed) => {
   return (
     <>
