@@ -1,27 +1,3 @@
-import React from 'react'
-
-// export function Decrypt3(input: string): string {
-//   const decrypted: string[] = []; 
-
-//   for (let i = 0; i < input.length; i++) {
-//     let a = i;
-//     if (a > 9) {
-//       a = i - 9;
-//     }
-
-//     if (/\d/.test(input[i])) {      
-//       decrypted[i] = String.fromCharCode(((input.charCodeAt(i) - 48 - a + 10) % 10) + 48);
-//     } else {
-      
-//       decrypted[i] = input[i];
-//     }
-//   }
-
-//   console.log(decrypted)
-
-//   return decrypted.join(' '); 
-// }
-
 const Navbar = () => {
 function EncryptAbs(input: string, shift: number): string {
     const encrypted: string[] = [];
