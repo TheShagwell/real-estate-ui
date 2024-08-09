@@ -26,6 +26,7 @@ const Category = ({id, icon, text} : FourBoxed) => {
         <div className="grid grid-cols-4 gap-[.625rem]">
           {Package.map((item) => (
             <Category
+              key={item.id}
               id={item.id}
               icon={item.icon}
               text={item.text}
