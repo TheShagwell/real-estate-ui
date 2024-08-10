@@ -1,8 +1,8 @@
 import React from 'react'
-import { Package } from '../constants/constant.index'
+import { Package } from '../../app/constants/constant.index'
 
 interface FourBoxed {
-  id: string;
+  id?: string;
   icon: string;
   text: string;
 }

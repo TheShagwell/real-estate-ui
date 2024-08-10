@@ -1,7 +1,7 @@
-import Banner from "./components/Banner";
-import Categories from "./components/Categories";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Banner from "../components/shared/Banner";
+import Categories from "../components/shared/Categories";
+import Header from "../components/shared/Header";
+import Hero from "../components/shared/Hero";
 
 
 export default function Home() {

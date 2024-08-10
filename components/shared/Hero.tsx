@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
-import { Inview } from '../constants/constant.index'
+import { Inview } from '../../app/constants/constant.index'
 import HeropageImage from "/public/Hero_page.png";
 import Image from 'next/image';
 
@@ -40,7 +40,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="h-[38.875rem] bg-[url('/AbstractDesign.svg')] relative bg-[#1A1A1A]">
-               <Image src={HeropageImage} alt='Hero Image' style={{  
+               <Image src={HeropageImage} alt='Hero Image' priority style={{  
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',

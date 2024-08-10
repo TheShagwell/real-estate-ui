@@ -22,7 +22,8 @@ export const NavItems = [
         title: 'Services',
         link: '/services',
     }
-] 
+]
+ 
 export const Rental = [
     {
         id: 'rent-01',
