@@ -65,27 +65,32 @@ interface FourBoxed {
     id: string
     icon: string
     text: string
+    absoluteIcon: string
 }
 
 export const Package:FourBoxed[] = [
     {
         id: 'package-1',
-        icon: "/_Icon-home-estate.svg",
+        icon: "/Icon-home-estate.svg",
+        absoluteIcon: '/IconAbsolute-Arrow.svg',
         text: 'Find your dream home'
     },
     {
         id: 'package-2',
         icon: "/_Icon-money-value.svg",
+        absoluteIcon: '/IconAbsolute-Arrow.svg',
         text: 'Unlock property value'
     },
     {
         id: 'package-3',
         icon: "/_Icon-property.svg",
+        absoluteIcon: '/IconAbsolute-Arrow.svg',
         text: 'Effortless Property Management'
     },
     {
         id: 'package-4',
         icon: "/_icon-sunlight.svg",
+        absoluteIcon: '/IconAbsolute-Arrow.svg',
         text: 'Unlock property value'
     }
 ]
